@@ -1,0 +1,28 @@
+{
+  "name": "injectype",
+  "version": "0.0.1",
+  "description": "Injectype simplifies dependency management in TypeScript. Organize and configure your app's components and services easily. Lightweight, yet robust and flexible, TypeInject allows you to focus on writing clean, maintainable code.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushik2901/Injectype.git"
+  },
+  "author": "Kaushik Jadav <kaushikjadav602@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaushik2901/Injectype/issues"
+  },
+  "homepage": "https://github.com/kaushik2901/Injectype#readme",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.2"
+  }
+}
